@@ -19,16 +19,16 @@ namespace CourseWork
     {
         //class variables
         private int IDNum;
-        private float maxTemp;
-        private float minTemp;
+        private double maxTemp;
+        private double minTemp;
         public int daysOfAirFrost;
-        public int mmRain;
-        public float hrsSunshine;
+        public double mmRain;
+        public double hrsSunshine;
 
 
         //constructors
-        public Month(int inputID, float inputMax, float inputMin,
-                    int inputDaysFrost, int inputMmRain, float inputHrSunshine)
+        public Month(int inputID, double inputMax, double inputMin,
+                    int inputDaysFrost, double inputMmRain, double inputHrSunshine)
         {
             IDNum = inputID;
             maxTemp = inputMax;
@@ -54,11 +54,11 @@ namespace CourseWork
         {
             return IDNum;
         }
-        public float getMaxTemp()
+        public double getMaxTemp()
         {
             return maxTemp;
         }
-        public float getMinTemp()
+        public double getMinTemp()
         {
             return minTemp;
         }
@@ -66,11 +66,11 @@ namespace CourseWork
         {
             return daysOfAirFrost;
         }
-        public int getMmRain()
+        public double getMmRain()
         {
             return mmRain;
         }
-        public float getHrSunshine()
+        public double getHrSunshine()
         {
             return hrsSunshine;
         }
@@ -79,8 +79,8 @@ namespace CourseWork
         //all the setters
         
 
-        public void setItAll(int inputID, float inputMax, float inputMin,
-                            int inputDaysFrost, int inputRain, float inputSunshine)
+        public void setItAll(int inputID, double inputMax, double inputMin,
+                            int inputDaysFrost, double inputRain, double inputSunshine)
         {
             IDNum = inputID;
             maxTemp = inputMax;

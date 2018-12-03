@@ -1,6 +1,6 @@
 ﻿namespace CourseWork
 {
-    partial class frmHome
+    partial class frmAddYear
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnHome = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // frmHome
+            // btnHome
+            // 
+            this.btnHome.Location = new System.Drawing.Point(698, 12);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(90, 67);
+            this.btnHome.TabIndex = 2;
+            this.btnHome.Text = "Return to Home";
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // frmAddYear
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(993, 522);
-            this.Name = "frmHome";
-            this.Text = "HomePage";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHome);
+            this.Name = "frmAddYear";
+            this.Text = "frmAddYear";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnHome;
     }
 }
-

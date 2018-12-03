@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace CourseWork
 {
-    public partial class frmHome : Form
+    public partial class frmAddMonth : Form
     {
-        public frmHome()
+        public frmAddMonth()
         {
             InitializeComponent();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            frmHomepage.frmKeepHomepage.Show();
         }
     }
 }

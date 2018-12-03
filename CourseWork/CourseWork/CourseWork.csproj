@@ -46,19 +46,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\COURSEWORK REVIEW.cs" />
-    <Compile Include="D:\SOFT152\coursework\Year Month Loc.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="AddMonth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddMonth.Designer.cs">
+      <DependentUpon>AddMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\COURSEWORK REVIEW.cs" />
+    <Compile Include="D:\SOFT152\coursework\Year.cs">
+      <Link>Year.cs</Link>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="frmAddMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMonth.Designer.cs">
+      <DependentUpon>frmAddMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddYear.Designer.cs">
+      <DependentUpon>frmAddYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditMonth.Designer.cs">
+      <DependentUpon>frmEditMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditYear.Designer.cs">
+      <DependentUpon>frmEditYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHomepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHomepage.Designer.cs">
+      <DependentUpon>frmHomepage.cs</DependentUpon>
     </Compile>
     <Compile Include="Month.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AddMonth.resx">
+      <DependentUpon>AddMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMonth.resx">
+      <DependentUpon>frmAddMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddYear.resx">
+      <DependentUpon>frmAddYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditMonth.resx">
+      <DependentUpon>frmEditMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditYear.resx">
+      <DependentUpon>frmEditYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHomepage.resx">
+      <DependentUpon>frmHomepage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
